@@ -9,8 +9,6 @@
 - Choh Kaifeng  
 - Raffael Davin Harjanto
 
-**Submission Date:** 25 June 2025
-
 ---
 
 ## Project Overview
