@@ -80,7 +80,7 @@ This project involves the **design and simulation of an enterprise computer netw
 - Isolates departments and controls broadcast domains  
 - Improves security, performance, and manageability  
 
-### 6. ♻Redundancy Implementation
+### 6. Redundancy Implementation
 - **Device Redundancy** (backup devices)  
 - **Link Redundancy** (multiple uplinks)  
 - **Path Redundancy** (alternate routes)  
