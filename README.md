@@ -1,25 +1,25 @@
-# 🖧 INF1006: Enterprise Network Design Project  
+# INF1006: Enterprise Network Design Project  
 **AY 2024/2025 – Assignment 1**  
 **Singapore Institute of Technology (SIT)**  
 
-## 👥 Group 6 Members
+## Group 6 Members
 - Ang Ke Ying   
 - Rojas Alessandro Rafael Doronila 
 - Tay Yu Xuan Jolene  
 - Choh Kaifeng  
 - Raffael Davin Harjanto
 
-📅 **Submission Date:** 25 June 2025
+**Submission Date:** 25 June 2025
 
 ---
 
-## 📘 Project Overview
+## Project Overview
 
 This project involves the **design and simulation of an enterprise computer network** for an institution, spanning two separate buildings (E2 and E6). We used the allocated IP address space `103.30.215.0/24` and implemented **Variable Length Subnet Masking (VLSM)**, VLAN segmentation, and other essential network technologies to ensure optimal **security, scalability, and redundancy**.
 
 ---
 
-## 🗂️ VLSM Subnet Design
+## VLSM Subnet Design
 
 | **Zone**         | **VLAN ID** | **Devices**                           | **Subnet Mask** | **Network Address**     | **Usable IP Range** | **Notes**                          |
 |------------------|------------|----------------------------------------|------------------|--------------------------|----------------------|------------------------------------|
@@ -33,7 +33,7 @@ This project involves the **design and simulation of an enterprise computer netw
 
 ---
 
-## 🌐 Network Topology
+## Network Topology
 
 - **Buildings:** E2 and E6  
 - **Zones:** Labs, Admin Office, Server Room  
@@ -43,7 +43,7 @@ This project involves the **design and simulation of an enterprise computer netw
 
 ---
 
-## ⚙️ Routing Configuration
+## Routing Configuration
 
 - **Router-on-a-Stick:** Sub-interfaces created for each VLAN  
 - **Static Routing:** Simpler control and visibility  
@@ -53,13 +53,13 @@ This project involves the **design and simulation of an enterprise computer netw
 
 ## 🔧 Features Implemented
 
-### 1. 🧠 Dynamic Host Configuration Protocol (DHCP)
+### 1. Dynamic Host Configuration Protocol (DHCP)
 - Auto-assigns IPs to clients  
 - Separate DHCP pools for each VLAN:  
   - **E2 Router:** VLAN10_POOL, VLAN20_POOL, VLAN30_POOL  
   - **E6 Router:** VLAN40_POOL, VLAN50_POOL  
 
-### 2. 🛡 Access Control Lists (ACLs)
+### 2. Access Control Lists (ACLs)
 - Restrict access to the **admin printer**  
 - **ACL 100** (E2 Router) and **ACL 110** (E6 Router)  
 - Students and lecturers blocked; admins allowed  
@@ -71,16 +71,16 @@ This project involves the **design and simulation of an enterprise computer netw
   - Fault tolerance  
   - Load balancing  
 
-### 4. 📶 Wireless Access Points
+### 4. Wireless Access Points
 - WPA2-PSK security enabled  
 - Static IP for wireless infrastructure  
 - Student and lecturer personal device support  
 
-### 5. 🧱 VLAN Segmentation
+### 5. VLAN Segmentation
 - Isolates departments and controls broadcast domains  
 - Improves security, performance, and manageability  
 
-### 6. ♻️ Redundancy Implementation
+### 6. ♻Redundancy Implementation
 - **Device Redundancy** (backup devices)  
 - **Link Redundancy** (multiple uplinks)  
 - **Path Redundancy** (alternate routes)  
@@ -88,7 +88,7 @@ This project involves the **design and simulation of an enterprise computer netw
 
 ---
 
-## ✅ Conclusion
+## Conclusion
 
 This enterprise network design delivers a **secure, scalable, and high-performing infrastructure** tailored to institutional needs. It leverages advanced features like VLANs, VLSM, DHCP, ACLs, and redundancy techniques to ensure **reliability, future expansion**, and **ease of management** in a simulated Cisco Packet Tracer environment.
 
